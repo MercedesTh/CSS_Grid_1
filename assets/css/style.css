@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Number 1 */
+
 div{
     display: grid;
     justify-content: start;
@@ -43,5 +45,44 @@ div{
     height: 100vh;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    margin: 10% auto;
 }
 
+/* Number 2 */
+
+article{
+    display: grid;
+    justify-content: start;
+    border-radius: 10px;
+}
+
+.newRed{
+    background: red;
+    grid-column: 1/span 4;
+    grid-row: 1;
+
+}
+
+.newBlue{
+    background: blue;
+    grid-column: 1/span 2;
+    grid-row: 2/span 2;
+}
+
+.newGreen{
+    background: green;
+    grid-column: 3/span 2;
+    grid-row: 2;
+}
+
+.newVioletA{
+    background: blueviolet;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.newVioletB{
+    background: blueviolet;
+    grid-column: 4;
+    grid-row: 3;
+}
